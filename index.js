@@ -2,6 +2,10 @@ var books = require('./myModules');
 var express = require ('express');
 var app = express();
 
+app.get('/', function(req, res) {
+ 	res.sendFile(__dirname + '/index.html');
+ });
+
 app.get('/getAllBooks' ,function(req,res) {
 	console.log('"getAllBooks" initiated');
 	var list = books.getAllBooks();
