@@ -3,7 +3,7 @@ var bookList = [
 {id:"2", name:"Down memory lane", author:"Peleg", year:"1982", type:"Drama", price:"52$"},
 {id:"3", name:"Summer Time At Nowhere", author:"PelegBN", year:"1987", type:"Youth", price:"45$"},
 {id:"4", name:"Making Friends", author:"BNP", year:"2013", type:"Drama", price:"44$"},
-{id:"5", name:"Fluffy McFluff", author:"Natalie", year:"2010", type:"Children", price:"35$"},
+{id:"5", name:"Fluffy MacFluff", author:"Natalie", year:"2010", type:"Children", price:"35$"},
 {id:"6", name:"Lillian Made a Mess", author:"Tuti", year:"2002", type:"Thriller", price:"35$"}
 ];
 
