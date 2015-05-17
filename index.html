@@ -7,30 +7,39 @@
 </head>
 
 <style>
-		body {background-color: #222222;
+		html {height: 100%; } 
+
+		body { //background: radial-gradient(#fff3de, #75654a );
+			   background: #fff3de;
 			  color: white;
 			  font-family: sans-serif;
 			  margin: 0;}
+
 		section {margin: auto;
 				 margin-top: 15%;
 				 padding: 25px;
 				 text-align: center;
-				 width: 600px;
-				 border: 5px solid gray;
-				 border-radius: 15px;
-				 background-color: #111111;
-				 box-shadow: inset 0px 0px 15px 5px black;}
+				 width: 700px;
+				 border: 3px solid #75654a;
+				 border-radius: 50px;
+				 background-color: #ff9758;
+				 //background: linear-gradient(to top, rgba(255,0,0,0), #223453);
+				 box-shadow: 0px 7px 0px #75654a;}
 
 		article {text-align: left;}
+
+		p {color: #75654a;}
 </style>
 
 <body>
 	<section>
-		<p><span style="font-size: 25px;">Functions you can call from the URL:</span></p>
+		<p><span style="font-size: 25px;">Functions you can call from the URL</span></p>
 		<article><br>
-			<p>- &nbsp /getAllBooks</p>
-			<p>- &nbsp /getBook/:id &nbsp &nbsp &nbsp &nbsp (1-6 integer)</p>
-			<p>- &nbsp /getType/:type &nbsp &nbsp (Comedy/Drama/Youth/Children/Thriller)</p>
+			<p>- &nbsp <span style="color: #fef6e7;">/getAllBooks</span></p>
+			<p>- &nbsp <span style="color: #fef6e7;">/getBook/:id</span> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp [1-6 integer]</p>
+			<p>- &nbsp <span style="color: #fef6e7;">/getType/:type</span> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp [Comedy/Drama/Youth/Children/Thriller]</p>
+			<p>- &nbsp <span style="color: #fef6e7;">/getMaxPrice/:price</span> &nbsp &nbsp [35/44/45/52/79]</p>
+			<p>- &nbsp <span style="color: #fef6e7;">/find?</span> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp [author=(Natalie/Peleg) & year=(1987/1991/2002/2010/2013)]</p>
 		</article>
 	</section>
 </body>
