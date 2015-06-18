@@ -4,7 +4,13 @@ var bookList = [
 {id:"3", name:"Summer Time At Nowhere", author:"Peleg", year:"1987", type:"Youth", price:"45"},
 {id:"4", name:"Making Friends", author:"Peleg", year:"2013", type:"Drama", price:"44"},
 {id:"5", name:"Fluffy MacFluff", author:"Natalie", year:"2010", type:"Children", price:"35"},
-{id:"6", name:"Lillian Made a Mess", author:"Natalie", year:"2002", type:"Thriller", price:"35"}
+{id:"6", name:"Lillian Made a Mess", author:"Natalie", year:"2002", type:"Thriller", price:"35"},
+{id:"7", name:"Somethin' About Us", author:"Peleg", year:"1998", type:"Drama", price:"79"},
+{id:"8", name:"Killing Time", author:"Natalie", year:"2002", type:"Thriller", price:"52"},
+{id:"9", name:"You're Weird? So am I", author:"Peleg", year:"2007", type:"Youth", price:"68"},
+{id:"10", name:"What's That Smell?", author:"Peleg", year:"1973", type:"Comedy", price:"53"},
+{id:"11", name:"YOU'RE IT!", author:"Natalie", year:"2010", type:"Children", price:"66"},
+{id:"12", name:"You Gonna Eat This?", author:"Natalie", year:"2002", type:"Comedy", price:"33"}
 ];
 
 exports.getAllBooks = function () {
